@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>量子コンピューティングの未来 - 革新的なサービス</title>
+    <style>
+        :root {
+            --primary-color: #2ecc71;
+            --secondary-color: #e74c3c;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .main-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #c0392b;
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>量子コンピューティングの未来</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">概要</a></li>
+                <li><a href="#services">サービス</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="量子コンピューターのイメージ" class="main-image">
+
+        <div class="container">
+            <section id="about">
+                <h2>革新的な量子コンピューティングサービス</h2>
+                <p>私たちの最先端の量子コンピューティングソリューションは、複雑な問題を解決し、ビジネスを次のレベルに引き上げます。従来のコンピューターでは数年かかる計算を、わずか数秒で実行できます。</p>
+            </section>
+
+            <section id="services">
+                <h2>提供サービス</h2>
+                <ul>
+                    <li>量子アルゴリズム最適化</li>
+                    <li>量子機械学習</li>
+                    <li>量子暗号化</li>
+                    <li>量子シミュレーション</li>
+                </ul>
+                <a href="#contact" class="cta-button">詳細を問い合わせる</a>
+            </section>
+
+            <section id="contact">
+                <h2>お問い合わせ</h2>
+                <form>
+                    <label for="name">お名前:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">メールアドレス:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">メッセージ:</label><br>
+                    <textarea id="message" name="message" required></textarea><br>
+                    <input type="submit" value="送信" class="cta-button">
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 量子コンピューティング株式会社. All rights reserved.</p>
+    </footer>
+</body>
+</html>
